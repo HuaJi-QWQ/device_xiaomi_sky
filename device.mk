@@ -143,6 +143,8 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
 # Camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor

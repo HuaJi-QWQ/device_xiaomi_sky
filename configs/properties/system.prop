@@ -5,6 +5,10 @@ persist.vendor.bt.a2dp.hal.implementation=true
 persist.vendor.bt.a2dp.aac_whitelist=false
 persist.vendor.btstack.enable.lpa=true
 
+# Camera
+ro.miui.notch=1
+ro.product.mod_device=sky
+
 # Charger
 ro.charger.enable_suspend=1
 
