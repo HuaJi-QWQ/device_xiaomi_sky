@@ -1,3 +1,12 @@
+# Audio
+use.voice.path.for.pcm.voip=true
+
+# Blur
+persist.sys.sf.disable_blurs=1
+ro.launcher.blur.appLaunch=0
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+
 # Bluetooth
 persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.enable.twsplussho=true
@@ -44,6 +53,16 @@ persist.vendor.sensors.enable.mag_filter=true
 # SSR
 persist.vendor.ssr.enable_ramdumps=1
 
+# Time
+persist.timed.enable=true
+
+# Vendor
+ro.vendor.qti.va_aosp.support=1
+
 # WiFi display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Display
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.has_HDR_display=true

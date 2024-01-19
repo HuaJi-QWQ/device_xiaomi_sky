@@ -1,0 +1,20 @@
+[
+  { 
+    "repository"   : "LineageOS/android_packages_resources_devicesettings",
+    "target_path"  : "packages/resources/devicesettings",
+    "branch"       : "lineage-20.0",
+    "remote"       : "github"
+  },
+  { 
+    "repository"   : "PixelOS-Devices/vendor_xiaomi_sky",
+    "target_path"  : "vendor/xiaomi/sky",
+    "branch"       : "fourteen",
+    "remote"       : "github"
+  },
+  {
+    "repository"   : "PixelOS-Devices/device_xiaomi_sky-kernel",
+    "target_path"  : "device/xiaomi/sky-kernel",
+    "branch"       : "fourteen",
+    "remote"       : "github"
+  }
+]
